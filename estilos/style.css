@@ -1,3 +1,4 @@
+@media(max - widht: 1000px);
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 *{
     margin: 0;
@@ -113,3 +114,22 @@ body{
 .cabecalho {
     padding: 2% 0% 0% 15%;
 }
+
+@media(max - widht: 1000px);
+.apresentacao{
+    flex-direction:column-reverse;
+}
+.cabecalho{
+    padding: 10%;
+}
+.cabecalho_menu{
+    justify-content:center;
+}
+.apresentacao{
+    flex-direction:column-reverse;
+    padding: 5%;
+}
+.apresentacao-conteudo{
+    widht: auto;
+}
+    
