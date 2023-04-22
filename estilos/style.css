@@ -115,7 +115,7 @@ body{
     padding: 2% 0% 0% 15%;
 }
 
-@media(max - widht: 1000px);
+@media(max - widht: 1200px);
 .apresentacao{
     flex-direction:column-reverse;
 }
