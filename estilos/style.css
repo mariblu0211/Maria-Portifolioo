@@ -115,21 +115,106 @@ body{
     padding: 2% 0% 0% 15%;
 }
 
-@media(max - widht: 1200px);
-.apresentacao{
-    flex-direction:column-reverse;
+@media screen and (max-width:1000px) {
+    
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(---cor-primaria);
+    color: var(---cor-terciaria);
 }
-.cabecalho{
+.titulo-destaque{
+    color: var(---cor-quinaria);
+}
+
+.cabecalho {
     padding: 10%;
 }
-.cabecalho_menu{
-    justify-content:center;
-}
-.apresentacao{
-    flex-direction:column-reverse;
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 5%;
-}
-.apresentacao-conteudo{
-    widht: auto;
-}
+    gap: 82px;
+    flex-direction: column-reverse;
     
+}
+
+.cabecalho_menu {
+    justify-content: center;
+   
+}
+.cabecalho_menu_link {
+    font-family: var(---fonte-secundaria);
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(---cor-quinaria);
+    text-decoration: none;
+}
+.apresentacao_conteudo{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.apresentacao_conteudo_texto{
+    font-size: 1.375rem;
+    font-family: var(---fonte-secundaria);
+    font-weight: 480;
+    line-height: 36px;
+    text-align: justify;
+}
+.apresentacao_conteudo_titulo{
+    font-size: 2.25rem;
+    font-family: var(---fonte-primaria);
+    font-weight: 400;
+    line-height: 56px;
+}
+.apresentacao_links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.apresentacao_links_subtitulo {
+    font-family: var(---fonte-primaria);
+    font-weight: 400;
+    size: 24px;
+}
+.apresentacao_links_link{
+    background-color:var(---cor-quaternaria);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: var(---fonte-secundaria);
+    text-decoration: none;
+    border: 2px solid;
+    border-color: var(---cor-quaternaria);
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    display: flex;
+    width: 275px;
+    color: var(---cor-quinaria);
+    border-radius: 8px;
+    padding: 10px 32px;
+}
+.apresentacao_links_link:hover{
+    background-color: var(---cor-primaria);
+}
+.imagem {
+    width: auto;
+    
+}
+.rodape{
+    color: var(---cor-quaternaria);
+    background-color: var(---cor-quinaria);
+    padding: 23px;
+    text-align: center;
+    font-family: var(---fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+}
